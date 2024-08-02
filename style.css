@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 40px;
+  background-color: rgb(245, 245, 245);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.237);
+  width: 400px;
+  height: 250px;
+  padding: 20px;
+}
+#passlabel,
+#userlabel {
+  cursor: pointer;
+}
+#passinput,
+#userinput {
+  color: rgb(109, 80, 255);
+  width: 250px;
+  height: 23px;
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 4px;
+  background-color: rgb(233, 240, 255);
+  transition: 0.2s;
+}
+#passinput {
+  margin-top: 12px;
+}
+#passinput:hover,
+#userinput:hover {
+  background-color: rgb(241, 245, 255);
+}
+#passinput:focus,
+#userinput:focus {
+  outline: none;
+  border: 3px solid rgba(0, 0, 255, 0.145);
+  background-color: rgb(248, 250, 255);
+}
+#enterinfoh1 {
+  margin-top: 30px;
+  font-size: 25px;
+}
+#error {
+  text-align: center;
+  font-weight: bold;
+}
+li {
+  color: rgb(169, 170, 170);
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+ul {
+  margin-bottom: 0px;
+}
+button {
+  display: flex;
+  margin-left: 35%;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(89, 89, 193);
+  color: white;
+  margin-top: 10px;
+  border-radius: 2px;
+  padding: 7px 16px;
+  font-size: 15px;
+  transition: 0.2s;
+}
+button:hover {
+  background-color: rgb(101, 101, 190);
+}
+button:active {
+  background-color: rgb(121, 121, 187);
+}
+#checkbox {
+  display: none;
+}
+#checkboxeye {
+  transform: translateY(8px);
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.unchecked {
+  fill: rgb(57, 57, 78);
+}
+.checked {
+  fill: rgb(99, 99, 138);
+}
+::placeholder {
+  color: rgb(198, 198, 244);
+}
